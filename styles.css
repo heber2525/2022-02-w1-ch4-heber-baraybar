@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 560px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(66, 66, 143);
+}
+.header__h1{
+    font-size: 25px;
+    margin-left: 50px;
+}
+.header__list{
+    list-style: none;
+    margin-right: 10px;
+}
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+}
+.--header-list--bold{
+    font-weight: 900;
+}
+.--items-plus{
+    width: 20px;
+}
+.paid__items{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,57 @@
+%common-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: orange;
+
+}
+%exis{
+    width: 16px;
+    height: 16px;
+}
+%common-x{
+    margin:5px;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 560px;
+}
+.header{
+    display: flex;
+    background-color: rgb(66, 66, 143);
+    justify-content: space-between;
+}
+.header__h1{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.header__list{
+    display: flex;
+    list-style: none;
+   margin-right: 30px;
+}
+img{
+    @extend %exis;
+}
+.paid__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(187, 137, 45);
+    height: 50px;
+}
+.section__first-price{
+    @extend %common-flex;
+}
+.section__second-price{
+    @extend %common-flex;
+}
+.section-third-price{
+    @extend %common-flex;
+}
+.third__price-x{
+    @extend %common-x;
+}

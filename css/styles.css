@@ -1,4 +1,4 @@
-.section-third-price, .section__second-price, .section__first-price {
+.section__third-price, .section__second-price, .section__first-price {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,8 +11,15 @@ img {
   height: 16px;
 }
 
-.third__price-x {
-  margin: 5px;
+.third__price-x, .first__price-x {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-right: 10px;
+}
+
+.--check-bread {
+  text-decoration: line-through;
 }
 
 * {
@@ -27,6 +34,7 @@ body {
   display: flex;
   background-color: #42428f;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__h1 {
@@ -34,10 +42,16 @@ body {
   margin-left: 10px;
 }
 
-.header__list {
+.header__menu-list {
   display: flex;
+  justify-content: space-between;
+  gap: 30px;
   list-style: none;
-  margin-right: 30px;
+  padding-right: 30px;
+}
+
+.header-list-bold {
+  font-weight: bold;
 }
 
 .paid__items {
@@ -46,6 +60,16 @@ body {
   align-items: center;
   background-color: #bb892d;
   height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.second__price-x {
+  margin-right: 10px;
+}
+
+.--check-milk {
+  text-decoration: line-through;
 }
 
 /*# sourceMappingURL=styles.css.map */

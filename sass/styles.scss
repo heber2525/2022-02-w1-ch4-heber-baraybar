@@ -4,7 +4,7 @@
     align-items: center;
     height: 80px;
     background-color: orange;
-
+    font-size: 18px;
 }
 %exis{
     width: 16px;
@@ -66,7 +66,6 @@ img{
 }
 .section__third-price{
     @extend %common-flex;
-    
 }
 .first__price-x{
     @extend %common-x;
@@ -83,5 +82,15 @@ img{
 }
 .--check-milk{
    text-decoration: line-through;
+}
+.section__final-price{
+   padding-right: 10px;
+    height: 50px;
+    background-color: orange;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 1px;
+    padding-top: 10px;
 }
 
